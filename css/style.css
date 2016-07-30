@@ -8355,17 +8355,20 @@ a > img.fh5co-align-center {
 
 
   .footer-copyright {
-    text-align: left;
-    padding: 1.5em 0em;
-    font-size: 8px;
+    text-align: center;
+    padding: 0em;
+    font-size: 10px;
+    
+  }
+  .footer-copyright p {
+    margin: 0em; 
   }
 
    .footer-social {
     list-style: none;
     text-decoration:none;
-    text-align: right;
-    padding: none;
-    margin: none;
+    text-align: center;
+    padding-left: 0;
    
   }
 
