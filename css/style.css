@@ -1436,6 +1436,8 @@ figure {
 
 img {
   vertical-align: middle;
+  display: block;
+  margin: auto;
 }
 
 .img-responsive {
