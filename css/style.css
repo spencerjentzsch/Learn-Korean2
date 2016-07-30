@@ -8341,3 +8341,49 @@ a > img.fh5co-align-center {
     background-size: 90%;
   }
   
+ 
+
+
+  #fh5co-footer {
+    background-color: #e32929;
+    color: #cccccc;
+    padding: 10px 0px;
+    display: block;
+
+    }
+
+
+
+  .footer-copyright {
+    text-align: left;
+    padding: 1.5em 0em;
+    font-size: 8px;
+  }
+
+   .footer-social {
+    list-style: none;
+    text-decoration:none;
+    text-align: right;
+    padding: none;
+    margin: none;
+   
+  }
+
+footer li {
+  display: inline;
+}
+
+footer i {
+  padding: 10px;
+}
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    color: #444444;
+  }
+
+
+  
