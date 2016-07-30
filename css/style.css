@@ -7392,6 +7392,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   font-size: 13px;
   border: transparent;
+  position: fixed;
+  width: 100%;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header > .navbar {
@@ -7435,6 +7437,7 @@ h1, h2, h3, h4, h5, h6 {
   **/
 }
 
+/**removing padding
 #fh5co-content {
   padding: 0 0 7em 0;
 }
@@ -7443,7 +7446,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 0 4em 0;
   }
 }
-/**removing padding
+
 .fh5co-intro {
   padding: 7em 0;
 }
@@ -7480,11 +7483,13 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 100%;
 }
+/**
 @media screen and (max-width: 768px) {
   #fh5co-portfolio {
     margin-bottom: 4em;
   }
 }
+**/
 @media screen and (max-width: 1200px) {
   #fh5co-portfolio {
     padding-left: 0em;
@@ -8310,7 +8315,7 @@ a > img.fh5co-align-center {
 
 #syllables-text h3{
   color: #e32929;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 #syllables-text img {
@@ -8387,6 +8392,18 @@ footer i {
   footer a:hover {
     color: #444444;
   }
+
+  #intro-text p {
+    padding-top: 20px;
+  }
+
+  #intro-text img {
+    padding-bottom: 20px;
+  }
+
+ s
+
+  
 
 
   
