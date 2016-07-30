@@ -7441,7 +7441,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 0 4em 0;
   }
 }
-
+/**removing padding
 .fh5co-intro {
   padding: 7em 0;
 }
@@ -7449,6 +7449,7 @@ h1, h2, h3, h4, h5, h6 {
   .fh5co-intro {
     padding: 4em 0;
   }
+  **/
 }
 .fh5co-intro .intro-lead {
   font-size: 50px;
@@ -7464,11 +7465,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-portfolio {
+  /**taking out bottom margin
   margin-bottom: 7em;
-  padding-left: 4em;
-  padding-right: 4em;
   padding-top: 2em;
   padding-bottom: 2em;
+  **/
+  padding-left: 4em;
+  padding-right: 4em;
+  
   background: #fafafa;
   float: left;
   width: 100%;
@@ -7530,11 +7534,13 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 1200px) {
   #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description {
     padding: 2em;
+    min-height: 300px;
   }
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description {
     padding: 1em;
+    min-height: 300px;
   }
 }
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description h2 {
@@ -7553,7 +7559,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-portfolio .fh5co-portfolio-item.fh5co-img-right .fh5co-portfolio-figure {
     position: relative;
     top: auto;
-    bototm: auto;
+    bottom: auto;
     height: 400px;
   }
 }
@@ -8262,3 +8268,60 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/**SJJ addition**/
+.section-topper {
+ 
+  background-color: #e32929;
+  text-align: center;
+  font-size: .2em;
+  padding: 20px;
+}
+
+.section-topper h1 {
+  margin: 0;
+  color: white;
+}
+
+.section-header {
+  text-align: center;
+  font-size: .2em;
+  border: 2em solid #e32929;
+  border-radius: 40px;
+  margin: 30px 40px;
+}
+.section-header h1 {
+  margin: 15px;
+  font-size: 20px;
+}
+
+#syllables-text {
+  text-align: center;
+}
+
+#syllables-text h2 {
+  margin: 40px 0;
+
+}
+
+#syllables-text h3{
+  color: #e32929;
+  padding-top: 20px;
+}
+
+#syllables-text img {
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+.practice img{
+  max-width: 100%;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 765px) {
+   .fh5co-portfolio-description{
+    text-align: center;
+    border-bottom: 3px solid #444444;
+  }
