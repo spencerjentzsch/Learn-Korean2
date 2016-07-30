@@ -7430,7 +7430,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-main {
   clear: both;
+  /** Taking out padding on top
   padding-top: 3em;
+  **/
 }
 
 #fh5co-content {
@@ -7449,8 +7451,9 @@ h1, h2, h3, h4, h5, h6 {
   .fh5co-intro {
     padding: 4em 0;
   }
+  }
   **/
-}
+
 .fh5co-intro .intro-lead {
   font-size: 50px;
   line-height: 60px;
@@ -8290,6 +8293,7 @@ a > img.fh5co-align-center {
   border-radius: 40px;
   margin: 30px 40px;
 }
+
 .section-header h1 {
   margin: 15px;
   font-size: 20px;
@@ -8324,4 +8328,16 @@ a > img.fh5co-align-center {
    .fh5co-portfolio-description{
     text-align: center;
     border-bottom: 3px solid #444444;
+  } 
+
+}
+
+
+  .fh5co-intro {
+    padding: 80px 0px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
   }
+  
