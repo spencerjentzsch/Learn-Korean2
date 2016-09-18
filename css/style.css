@@ -8406,6 +8406,15 @@ footer i {
    color: #e32929;
  }
 
+.korean {
+  font-size: 3em;
+  color: #2980b9;
+  padding: .25em;
+}
+
+.well-spaced {
+  padding-bottom: 1.5em;
+}
 
 
   
